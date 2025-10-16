@@ -1,0 +1,47 @@
+/* General page styling */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Navigation bar */
+nav {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Navigation links */
+nav a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect for links */
+nav a:hover {
+  color: #0056b3;
+}
+
+/* Active link (optional) */
+nav a.active {
+  color: #0056b3;
+  border-bottom: 2px solid #0056b3;
+}
+
+/* Page container */
+div {
+  padding: 20px;
+}
+
+/* Headings */
+h2 {
+  font-size: 1.8rem;
+  color: #444;
+}
